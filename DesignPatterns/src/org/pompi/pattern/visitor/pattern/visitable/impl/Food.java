@@ -3,6 +3,11 @@ package org.pompi.pattern.visitor.pattern.visitable.impl;
 import org.pompi.pattern.visitor.pattern.visitable.PompiVisitibale;
 import org.pompi.pattern.visitor.pattern.visitor.PompiTaxVisitor;
 
+/**
+ * 
+ * @author e5571531
+ *
+ */
 public class Food implements PompiVisitibale{
 
 	private int price;
