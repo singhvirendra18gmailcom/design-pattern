@@ -1,8 +1,9 @@
-package org.pompi.pattern.visitor.impl;
+package org.pompi.pattern.visitor.pattern.visitable.impl;
 
-import org.pompi.pattern.visitor.PompiVisitor;
+import org.pompi.pattern.visitor.pattern.visitable.PompiVisitibale;
+import org.pompi.pattern.visitor.pattern.visitor.PompiTaxVisitor;
 
-public class Medicine implements PompiVisitibale{
+public class Food implements PompiVisitibale{
 
 	private int price;
 	private int quantity;
@@ -23,14 +24,14 @@ public class Medicine implements PompiVisitibale{
 		return price;
 	}
 
-	public Medicine(int price, int quantity) {
+	public Food(int price, int quantity) {
 		super();
 		this.price = price;
 		this.quantity = quantity;
 	}
-
+	
 	@Override
-	public double accept(PompiVisitor visitor) {
+	public double accept(PompiTaxVisitor visitor) {
 		return visitor.visit(this);
 	}
 

@@ -1,8 +1,18 @@
-package org.pompi.pattern.visitor.impl;
+package org.pompi.pattern.visitor.pattern.visitor.impl;
 
-import org.pompi.pattern.visitor.PompiVisitor;
+import org.pompi.pattern.visitor.pattern.visitable.impl.Food;
+import org.pompi.pattern.visitor.pattern.visitable.impl.Liquor;
+import org.pompi.pattern.visitor.pattern.visitable.impl.Medicine;
+import org.pompi.pattern.visitor.pattern.visitor.PompiTaxVisitor;
 
-public class PompiTaxVisitor implements PompiVisitor{
+
+/**
+ * this implementation for <tt> PompiTaxVisitor </tt> for Delhi city in India
+ * 
+ * @author singh
+ *
+ */
+public class PompiDelhiTaxVisitor implements PompiTaxVisitor{
 
 	@Override
 	public double visit(Liquor item) {
