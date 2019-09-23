@@ -1,6 +1,6 @@
-package org.pompi.pattern.visitor;
+package org.pompi.pattern.visitor.impl;
 
-import org.pompi.pattern.visitor.impl.PompiVisitibale;
+import org.pompi.pattern.visitor.PompiVisitor;
 
 public class Medicine implements PompiVisitibale{
 

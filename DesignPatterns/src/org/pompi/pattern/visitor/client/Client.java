@@ -1,9 +1,9 @@
 package org.pompi.pattern.visitor.client;
 
-import org.pompi.pattern.visitor.Medicine;
 import org.pompi.pattern.visitor.PompiVisitor;
 import org.pompi.pattern.visitor.impl.Food;
 import org.pompi.pattern.visitor.impl.Liquor;
+import org.pompi.pattern.visitor.impl.Medicine;
 import org.pompi.pattern.visitor.impl.PompiTaxVisitor;
 import org.pompi.pattern.visitor.impl.PompiVisitibale;
 

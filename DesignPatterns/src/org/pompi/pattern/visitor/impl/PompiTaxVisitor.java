@@ -1,6 +1,5 @@
 package org.pompi.pattern.visitor.impl;
 
-import org.pompi.pattern.visitor.Medicine;
 import org.pompi.pattern.visitor.PompiVisitor;
 
 public class PompiTaxVisitor implements PompiVisitor{
