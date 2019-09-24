@@ -1,6 +1,6 @@
 package org.pompi.pattern.visitor.pattern.visitor.impl;
 
-import org.pompi.pattern.visitor.pattern.visitable.impl.Food;
+import org.pompi.pattern.visitor.pattern.visitable.impl.PompiFood;
 import org.pompi.pattern.visitor.pattern.visitable.impl.Liquor;
 import org.pompi.pattern.visitor.pattern.visitable.impl.Medicine;
 import org.pompi.pattern.visitor.pattern.visitor.PompiTaxVisitor;
@@ -27,7 +27,7 @@ public class PompiDelhiTaxVisitor implements PompiTaxVisitor{
 }
 
 	@Override
-	public double visit(Food item) {
+	public double visit(PompiFood item) {
 		System.out.println(this.getClass().getName() + "is calculating taxes on" + item.getClass().getName());
 		return item.getPrice() * item.getQuantity() * 0;
 }

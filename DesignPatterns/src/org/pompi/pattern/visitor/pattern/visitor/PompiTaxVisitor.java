@@ -3,7 +3,7 @@
  */
 package org.pompi.pattern.visitor.pattern.visitor;
 
-import org.pompi.pattern.visitor.pattern.visitable.impl.Food;
+import org.pompi.pattern.visitor.pattern.visitable.impl.PompiFood;
 import org.pompi.pattern.visitor.pattern.visitable.impl.Liquor;
 import org.pompi.pattern.visitor.pattern.visitable.impl.Medicine;
 
@@ -35,7 +35,7 @@ public interface PompiTaxVisitor {
 	 * @param food
 	 * @return taxable amount on @see Food Type
 	 */
-	double visit(Food food);
+	double visit(PompiFood food);
 	
 
 }
